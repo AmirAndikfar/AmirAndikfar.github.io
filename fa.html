@@ -76,7 +76,7 @@
 									</h6>
 									<h6>Pandas - NumPy - Matplotlib – Scikit Learn - TensorFlow</h6>
 								</header>
-								<a href="https://github.com/AmirAndikfar/" class="image featured">
+								<a href="#" class="image featured">
 									<img src="images/DataScience1-01.png" alt="" />
 								</a>
 								<header class="style1">
@@ -164,6 +164,15 @@
 											<p>
 												پروژه طبقه بندی (Classification) بر روی 319،000 داده برای پیشبینی
 												احتمال بروز عارضه قلبی ، کلیوی و پوستی
+											</p>
+										</article>
+									</li>
+									<li>
+										<article class="box post-excerpt">
+											<a href="https://github.com/AmirAndikfar/fraud-detection/blob/main/fraud-detection.ipynb" class="image left"><img src="images\vcQkAz3.png" alt="" /></a>
+											<h3><a href="https://github.com/AmirAndikfar/fraud-detection/blob/main/fraud-detection.ipynb">طبقه بندی</a></h3>
+											<p>
+												پروژه طبقه بندی (Classification) بر روی 284،807 داده برای پیشبینی وقوع تراکنش های مالی تقلبی با دقت 89 درصدی
 											</p>
 										</article>
 									</li>
@@ -344,27 +353,5 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
 		<script src="https://smtpjs.com/v3/smtp.js"></script>
-		<script>
-			var btn = document.getElementById('btn');
-			btn.addEventListener('click', function (e) {
-				e.preventDefault()
-				var name = document.getElementById('contact-name').value
-				var email = document.getElementById('contact-email').value
-				var msg = document.getElementById('contact-message').value
-				var body = 'name:' + name + '<br/> email: ' + email + '<br/> message' + msg
-				Email.send({
-					Host: "smtp.elasticemail.com",
-					Username: "-",
-					Password: "-",
-					To: '-',
-					From: email,
-					Subject: "Portfolio message",
-					Body: body
-				}).then(
-					message => alert(message)
-				);
-			})
-		</script>
-
 	</body>
 </html>
